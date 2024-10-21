@@ -1,0 +1,40 @@
+.project {
+    list-style-type: none;
+    margin: 5rem 0;
+    &__title {
+        color: $white;    
+    }
+    &__description {
+        color: $off-white;
+    }
+    &__tools-list {
+        list-style-type: none;
+        margin: 1rem 0;
+        padding: 0;
+    }
+    &__tools-item {
+        display: inline;
+        padding-right: 1rem;
+        color: $light-blue;
+    }
+    &__link {
+        display: block;
+        text-decoration: none;
+        margin-bottom: 1rem ;
+        color: $black;
+        border-radius: 4px;
+        width: 10rem;
+        text-align: center;
+        &--live {
+            background-color: $light-blue
+        }
+        &--code {
+            background-color:$orange;
+        }
+    }
+    &__img {
+        width: 100%;
+    }
+}
+
+

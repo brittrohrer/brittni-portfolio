@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+// background
+body {
+    background: $black;
+    height: 100vh;
+}
+section {
+    margin-bottom: 5rem;
+}
+
+//page style
+.page {
+    margin: 5rem 5%;
+    &__title {
+        color: $white;
+        font-size: 3.5rem;
+    }
+}
+.section-title {
+    font-size: 2rem;
+    color: $off-white;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}

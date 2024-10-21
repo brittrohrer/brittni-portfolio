@@ -1,0 +1,57 @@
+.home-page {
+    margin: 5rem 10% 1rem 10%;
+}
+
+.hero {
+    
+    &__title {
+        color: $white;
+        font-size: 4rem;
+        margin-bottom: 2rem;
+    }
+    &__text {
+        color: $off-white;
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+    }
+    &__animation {
+        position: relative;
+        margin-top: 3rem;
+    }
+}
+
+.fa-code {
+    font-size: 25rem;
+    color: $light-blue;
+    animation: 4s infinite alternate spinning;
+    position: absolute;
+}
+.code-changed {
+    position: absolute;
+    font-size: 12rem;
+    right: 0;
+    color: orange;
+    animation: 5s infinite alternate spinning2;
+}
+@keyframes spinning {
+    0% {
+        transform: rotateX(20deg)rotateY(-30deg)rotateZ(-20deg) ;
+    }
+    50% {
+        transform:rotateX(-30deg)rotateY(-50deg)rotateZ(30deg);
+    }
+    100% {
+        transform:rotateX(-160deg)rotateY(-140deg)rotateZ(-60deg);
+    }
+}
+@keyframes spinning2 {
+    0% {
+        transform: rotateX(-10deg)rotateY(20deg)rotateZ(30deg); ;
+    }
+    50% {
+        transform:rotateX(30deg)rotateY(-10deg)rotateZ(-10deg);     
+    }
+    100% {
+        transform:rotateX(130deg)rotateY(60deg)rotateZ(-30deg);
+    }
+}

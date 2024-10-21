@@ -1,0 +1,28 @@
+.skill {
+    
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    &__item {
+        width: 8rem;
+        height: 12rem;
+        background-color: $light-black;
+        border-radius: 10px;
+        display: flex;     
+        justify-content: center;
+        align-items: center;
+    }
+    &__name {
+        color: $off-white;
+        text-align: center;
+        font-size: 1.5rem;
+
+    }
+    &__logo {
+        font-size: 4rem;
+        color: $orange;
+        padding: 1rem;
+    }
+}

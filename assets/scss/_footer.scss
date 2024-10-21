@@ -1,0 +1,34 @@
+.footer {
+    padding: 1rem;
+    background-color: $light-black;
+}
+.connect {
+    padding: 2rem;
+    text-align: center;
+    &__links-container {
+        display: inline;
+        
+        
+    }
+    &__link {
+        padding: 1rem;
+    }
+    
+    &__icon {
+        color:$off-black;
+        padding: .5rem;
+        font-size: 1.5rem;
+        background: $off-white;
+        border-radius: 10px;
+    }
+
+    &__title {
+        color: $white;
+    }
+}
+.copyright {
+    &__text {
+        text-align: center;
+        color: $off-white;
+    }
+}
