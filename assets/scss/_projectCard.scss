@@ -1,6 +1,23 @@
+
 .project {
-    list-style-type: none;
-    margin: 5rem 0;
+    &__section {
+        padding: 0;
+    }
+    &__card {
+        list-style-type: none;
+        margin: 5rem 0;
+    }
+    &__img-container {
+        padding:0;
+    }
+    &__img {
+        width: 100%;
+        border-radius: 20px;
+    
+    }
+    &__text {
+        padding: 2rem;
+    }
     &__title {
         color: $white;    
     }
@@ -26,14 +43,13 @@
         width: 10rem;
         text-align: center;
         &--live {
-            background-color: $light-blue
+            border: solid 1px $light-blue;
+            color: $off-white;
         }
         &--code {
-            background-color:$orange;
+            border: solid 1px $orange;
+            color: $off-white;
         }
-    }
-    &__img {
-        width: 100%;
     }
 }
 

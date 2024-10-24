@@ -2,31 +2,31 @@
 
 const aboutHeader =ref(`Hello, I'm Brittni`);
 
-const aboutText = ref(`I grew up in Northern Michigan. My love for travel, 
-experiencing different cultures, and design guided me to my degrees in Archaeology and Geographic Information Systems (GIS).
+const aboutText = ref([`I grew up in Northern Michigan. My love for travel, 
+experiencing different cultures, and design guided me to my degrees in Archaeology and Geographic Information Systems (GIS).`,
 
-During my college years I studied abroad in Belize, where I specialized in Maya Archaeology. After my return to the US, 
+`During my college years I studied abroad in Belize, where I specialized in Maya Archaeology. After my return to the US, 
 I participated on a few more archeological projects within Michigan. 
-Though I'm not currently working on any digs, I am still traveling whenever possible. Including, traveling solo to Costa Rica to learn to surf.
+Though I'm not currently working on any digs, I am still traveling whenever possible. Including, traveling solo to Costa Rica to learn to surf.`,
 
-My eye for design came into play in GIS. Although, GIS is more than just designing and creating maps. 
+`My eye for design came into play in GIS. Although, GIS is more than just designing and creating maps. 
 It is effectively displaying geographical/spatial data for the audience to use and understand. This is also a useful skill to contribute 
-to my future in web development. `);
+to my future in web development. `]);
 
 const aboutImg = ref([
     {
-        src: "https://images.unsplash.com/photo-1606589329778-e87fbc5b7e33?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjF8fHByb2ZpbGUlMjBwaWN0dXJlfGVufDB8fDB8fHwy",
+        src: "https://images.pexels.com/photos/4588057/pexels-photo-4588057.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         alt: "pic of me",
     }
     ]);
 
 const skills = ref([
     {
-        name: "git",
+        name: "Git",
         logo: "fa-brands fa-square-git skill__logo"
     },
     {
-        name: "html",
+        name: "HTML",
         logo: "fa-brands fa-html5 skill__logo"
     },
     {
@@ -38,7 +38,7 @@ const skills = ref([
         logo: "fa-brands fa-css3-alt skill__logo"
     },
     {
-        name: "Sass",
+        name: "SCSS",
         logo: "fa-brands fa-sass skill__logo"
     },
     {
@@ -55,7 +55,7 @@ const skills = ref([
     },
     {
         name: "Nuxt",
-        logo: "skill__logo"
+        logo: "nuxt-logo skill__logo"
     },
 
 ])
@@ -81,8 +81,12 @@ const educationSection = ref([
         <h2 class="page__title">About Me</h2>
         <section class="row about-me">
             <h3 class="about-me__header">{{ aboutHeader }}</h3>
-            <p class="col-sm-7 about-me__text">{{ aboutText }}</p>
-            <img class="col-sm-5 about-me__img" v-for="img in aboutImg" :key="img.src" :src="img.src" :alt="img.alt">
+            <div class="col-md-7 ">
+                <p class="about-me__text" v-for="text in aboutText" :key="text">{{ text }}</p>
+            </div>
+            <div class="col-md-5">
+                <img class="about-me__img img-fluid" v-for="img in aboutImg" :key="img.src" :src="img.src" :alt="img.alt">
+            </div>
         </section>
         <section>
             <h3 class="section-title">Skills</h3>

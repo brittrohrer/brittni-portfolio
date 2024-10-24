@@ -1,0 +1,47 @@
+
+.contact-form {
+    font-size: .8rem;
+    &__title {
+        font-size: 1.5rem;
+        color: $white;
+    }
+    &__container {
+        max-width: 30rem;
+        margin: auto;
+        background-color: $off-black;
+        border-radius: 20px;
+        box-shadow: 0 0 15px 3px $light-blue;
+        padding: 1rem;
+    }
+    &__item {
+        margin: 1rem 0;
+    }
+}
+.form {
+    &__label {
+        display: block;
+        color: $white;
+        padding: .5rem 0;
+    }
+    &__input {
+        width: 100%;
+        border-radius: 5px;
+        
+        &--message {
+            height: 8rem;
+        }
+    }
+    &__button {
+        background-color: $light-blue;
+        color: $black;
+        padding: 1rem;
+        border-radius: 10px;;
+        border: solid 1px $black;
+    }
+    &__button:hover{
+            background-color: $black;
+            color: $white;
+            border: solid 1px $light-blue;
+        }
+    
+}

@@ -1,6 +1,6 @@
 <script setup>
 import {ref} from "vue";
-const footerTitle = ref(`Connect with me`);
+const contactEmail = ref("brittnirohrer@gmail.com");
 
 const connections = ref([
     {
@@ -17,6 +17,9 @@ const copyright = ref(`Brittni Rohrer | Oct. 2024`);
 
 <template>
     <footer class="footer">
+        <div>
+            <p class="email-address">Email: {{ contactEmail }}</p>
+        </div>
         <div class="connect">
             <div class="connect__links-container">
                 <a class="connect__link" v-for="icon in connections" :key="icon" :href="icon.link">

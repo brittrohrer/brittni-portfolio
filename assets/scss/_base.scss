@@ -1,5 +1,10 @@
 * {
     box-sizing: border-box;
+    font-family: "Michroma", sans-serif;
+    //font-family: "Antic Didone", serif;
+    //font-family: "Forum", serif;
+    //font-family: "Thasadith", sans-serif;
+    //font-family: "Trirong", serif;
 }
 // background
 body {
@@ -15,12 +20,12 @@ section {
     margin: 5rem 5%;
     &__title {
         color: $white;
-        font-size: 3.5rem;
+        margin: 2rem 0;
+        font-size: 3rem;
     }
 }
 .section-title {
     font-size: 2rem;
     color: $off-white;
-    margin-left: 2rem;
     margin-bottom: 2rem;
 }

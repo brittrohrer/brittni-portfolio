@@ -17,7 +17,7 @@ const title =ref(`Brittni Rohrer`);
                     <NuxtLink class="top-nav__link" to="/about">About</NuxtLink>
                 </li>
                 <li class="top-nav__item">
-                    <NuxtLink class="top-nav__link" to="/projects">My Projects</NuxtLink>
+                    <NuxtLink class="top-nav__link" to="/projects">Projects</NuxtLink>
                 </li>
                 <li class="top-nav__item">
                     <NuxtLink class="top-nav__link" to="/contact">Contact</NuxtLink>
