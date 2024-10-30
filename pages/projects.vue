@@ -40,7 +40,7 @@ const projects = ref([
     },
     {
         title:  "Family Recipes",
-        image:  "/mitravel.png",
+        image:  "/recipes.png",
         tools:  ["Bootstrap", 
                 "SCSS", 
                 "Vue JS/Nuxt"
