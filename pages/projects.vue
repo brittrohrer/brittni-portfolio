@@ -30,12 +30,24 @@ const projects = ref([
         image:  "/mitravel.png",
         tools:  ["Bootstrap", 
                 "SCSS", 
-                "Vue JS",
+                "Vue JS/Nuxt",
                 "API"
                 ],
         description:    "description Lorem ipsum odor amet, consectetuer adipiscing elit. Eros eu laoreet lectus litora auctor sit ac nisi. Turpis ut convallis rutrum nec natoque amet. Elit amet at molestie congue conubia malesuada facilisis. Velit et felis erat senectus ultrices porttitor diam eleifend.",
         code:   "https://github.com/brittrohrer/course-project",
         live:   "https://brohrer-travel-michigan.netlify.app/",
+
+    },
+    {
+        title:  "Family Recipes",
+        image:  "/mitravel.png",
+        tools:  ["Bootstrap", 
+                "SCSS", 
+                "Vue JS/Nuxt"
+                ],
+        description:    "description Lorem ipsum odor amet, consectetuer adipiscing elit. Eros eu laoreet lectus litora auctor sit ac nisi. Turpis ut convallis rutrum nec natoque amet. Elit amet at molestie congue conubia malesuada facilisis. Velit et felis erat senectus ultrices porttitor diam eleifend.",
+        code:   "https://github.com/brittrohrer/family-recipes",
+        live:   "https://brohrer-family-recipes.netlify.app",
 
     },
 
