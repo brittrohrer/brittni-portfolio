@@ -8,7 +8,7 @@ const projects = ref([
         tools:  ["HTML", 
                 "CSS"
                 ],
-        description:"Built as a class project, this is a mockup website for a potential Archery Club. Includes web pages where future members can learn about intructors, the facility and upcoming events. ",
+        description:"Built as a class project, this is a mockup website for a potential Archery Club. Includes web pages where future members can learn about intructors, the facility and offered services. ",
         code:   "https://github.com/brittrohrer/archery",
         live:   "https://brittrohrer.github.io/archery/",
 
@@ -77,6 +77,13 @@ const projects = ref([
         </section>
         <section>
             <h3 class="section-title">Code Features</h3>
+            <div>
+                <iframe height="300" style="width: 100%;" scrolling="no" title="loading-rings" src="https://codepen.io/brittrohrer/embed/xxvPwMw?default-tab=html%2Cresult&theme-id=dark" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/brittrohrer/pen/xxvPwMw">
+  loading-rings</a> by brittrohrer (<a href="https://codepen.io/brittrohrer">@brittrohrer</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+            </div>
         </section>
     </main>
 </template>
