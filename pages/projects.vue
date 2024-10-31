@@ -8,7 +8,7 @@ const projects = ref([
         tools:  ["HTML", 
                 "CSS"
                 ],
-        description:    "description Lorem ipsum odor amet, consectetuer adipiscing elit. Eros eu laoreet lectus litora auctor sit ac nisi. Turpis ut convallis rutrum nec natoque amet. Elit amet at molestie congue conubia malesuada facilisis. Velit et felis erat senectus ultrices porttitor diam eleifend.",
+        description:"Built as a class project, this is a mockup website for a potential Archery Club. Includes web pages where future members can learn about intructors, the facility and upcoming events. ",
         code:   "https://github.com/brittrohrer/archery",
         live:   "https://brittrohrer.github.io/archery/",
 
@@ -20,7 +20,7 @@ const projects = ref([
                 "CSS", 
                 "JavaScript"
                 ],
-        description:    "description Lorem ipsum odor amet, consectetuer adipiscing elit. Eros eu laoreet lectus litora auctor sit ac nisi. Turpis ut convallis rutrum nec natoque amet. Elit amet at molestie congue conubia malesuada facilisis. Velit et felis erat senectus ultrices porttitor diam eleifend.",
+        description: "Another class project to mock a pet adoption site. Includes the dog selection and checkout form.",
         code:   "https://github.com/brittrohrer/html200-adopt-a-dog",
         live:   "https://brittrohrer.github.io/html200-adopt-a-dog/",
 
@@ -33,7 +33,7 @@ const projects = ref([
                 "Vue JS/Nuxt",
                 "API"
                 ],
-        description:    "description Lorem ipsum odor amet, consectetuer adipiscing elit. Eros eu laoreet lectus litora auctor sit ac nisi. Turpis ut convallis rutrum nec natoque amet. Elit amet at molestie congue conubia malesuada facilisis. Velit et felis erat senectus ultrices porttitor diam eleifend.",
+        description: "A course long project for users of the site to learn about Michigan and why to travel there. ",
         code:   "https://github.com/brittrohrer/course-project",
         live:   "https://brohrer-travel-michigan.netlify.app/",
 
@@ -45,7 +45,7 @@ const projects = ref([
                 "SCSS", 
                 "Vue JS/Nuxt"
                 ],
-        description:    "description Lorem ipsum odor amet, consectetuer adipiscing elit. Eros eu laoreet lectus litora auctor sit ac nisi. Turpis ut convallis rutrum nec natoque amet. Elit amet at molestie congue conubia malesuada facilisis. Velit et felis erat senectus ultrices porttitor diam eleifend.",
+        description:    "A personal project that takes our handwritten recipes and gathers them to a single location for everyone in our family to easlily access. ",
         code:   "https://github.com/brittrohrer/family-recipes",
         live:   "https://brohrer-family-recipes.netlify.app",
 
