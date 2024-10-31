@@ -79,10 +79,24 @@ const projects = ref([
             <h3 class="section-title">Code Features</h3>
             <div>
                 <iframe height="300" style="width: 100%;" scrolling="no" title="loading-rings" src="https://codepen.io/brittrohrer/embed/xxvPwMw?default-tab=html%2Cresult&theme-id=dark" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/brittrohrer/pen/xxvPwMw">
-  loading-rings</a> by brittrohrer (<a href="https://codepen.io/brittrohrer">@brittrohrer</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
+                    See the Pen <a href="https://codepen.io/brittrohrer/pen/xxvPwMw">
+                    loading-rings</a> by brittrohrer (<a href="https://codepen.io/brittrohrer">@brittrohrer</a>)
+                    on <a href="https://codepen.io">CodePen</a>.
+                </iframe>
+            </div>
+            <div>
+                <iframe height="300" style="width: 100%;" scrolling="no" title="Loader-bubbles" src="https://codepen.io/brittrohrer/embed/YzmrMvv?default-tab=html%2Cresult&theme-id=dark" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+                    See the Pen <a href="https://codepen.io/brittrohrer/pen/YzmrMvv">
+                    Loader-bubbles</a> by brittrohrer (<a href="https://codepen.io/brittrohrer">@brittrohrer</a>)
+                    on <a href="https://codepen.io">CodePen</a>.
+                </iframe>
+            </div>
+            <div>
+                <iframe height="300" style="width: 100%;" scrolling="no" title="pinball" src="https://codepen.io/brittrohrer/embed/jOgaWpO?default-tab=html%2Cresult&theme-id=dark" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+                    See the Pen <a href="https://codepen.io/brittrohrer/pen/jOgaWpO">
+                    pinball</a> by brittrohrer (<a href="https://codepen.io/brittrohrer">@brittrohrer</a>)
+                    on <a href="https://codepen.io">CodePen</a>.
+                </iframe>
             </div>
         </section>
     </main>
