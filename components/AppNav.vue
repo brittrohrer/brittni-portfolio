@@ -2,7 +2,7 @@
 import {ref} from "vue";
 
 /* use variable that can be changed and create web content dynamically */
-const title =ref(`Brittni Rohrer`);
+const title =ref(`<BR>`);
 
 </script>
 <template>

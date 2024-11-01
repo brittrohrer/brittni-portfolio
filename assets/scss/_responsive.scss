@@ -19,8 +19,11 @@
         }
     }
     .hero {
+        &__name {
+            font-size: 4rem;
+        }
         &__title {
-            font-size: 2.5rem;
+            font-size: 2rem;
         }
         &__text {
             font-size: 1rem;

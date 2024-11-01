@@ -15,7 +15,7 @@ to my future in web development. `]);
 
 const aboutImg = ref([
     {
-        src: "https://images.pexels.com/photos/4588057/pexels-photo-4588057.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        src: "head-pic2.jpg",
         alt: "pic of me",
     }
     ]);
