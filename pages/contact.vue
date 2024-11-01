@@ -1,4 +1,10 @@
 <script setup>
+useHead({
+    title: 'Brittni Rohrer | Contact Page',
+    meta: [
+        {name: 'description', content: 'Email contact form to send a message'}
+    ]
+})
 const contactTitle = ref("Contact Me");
 
 </script>

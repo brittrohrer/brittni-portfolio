@@ -7,9 +7,9 @@ export default defineNuxtConfig({
       htmlAttrs: {
         lang: 'en'
       },
-      title: `Brittn's Portfolio`,
+      title: `Brittni's Portfolio`,
       meta: [
-        {name: 'description', content: 'Brittni Portfolio'}
+        {name: 'description', content: `Brittni's Portfolio for front-end web development`}
       ],
       link: [
         {

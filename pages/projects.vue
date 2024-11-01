@@ -1,4 +1,10 @@
 <script setup>
+useHead({
+    title: 'Brittni Rohrer | My Work Page',
+    meta: [
+        {name: 'description', content: 'View all my projects and current work.'}
+    ]
+})
 import {ref} from "vue";
 
 const projects = ref([

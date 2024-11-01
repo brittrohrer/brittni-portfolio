@@ -1,4 +1,10 @@
 <script setup>
+useHead({
+    title: 'Brittni Rohrer | About Me Page',
+    meta: [
+        {name: 'description', content: 'Contains everything about me, including education, skills, and resume.'}
+    ]
+})
 
 const aboutHeader =ref(`Hello, I'm Brittni`);
 
