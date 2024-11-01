@@ -109,7 +109,11 @@ const educationSection = ref([
         </section>
         <section>
             <h3 class="section-title">Resume</h3>
-            <a href="/public/Rohrer-Resume.pdf" class="resume-link" type="pdf" target="blank">View Resume</a>
+            <a
+            href="Brittni-Rohrer-Resume.pdf" 
+            class="resume-link"
+            target="blank">
+            View Resume Here <i class="fa-regular fa-circle-right"></i> </a>
         </section>
     </main>
 </template>

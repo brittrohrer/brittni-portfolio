@@ -12,8 +12,8 @@
 .education {
     list-style-type: none;
     background-color: $light-black;
-    margin: 2rem;
     padding: 1rem;
+    border-radius: 10px;
 
     &__list-item {
         margin-bottom: 1rem;
@@ -24,4 +24,17 @@
     &__degree {
         color: $off-white;
     }
+}
+
+.resume-link {
+    text-decoration: none;
+    color: $light-blue;
+    background: $light-black;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.fa-circle-right {
+    font-size: 1.5rem;
 }
