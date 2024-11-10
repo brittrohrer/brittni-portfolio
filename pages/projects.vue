@@ -56,6 +56,19 @@ const projects = ref([
         live:   "https://brohrer-family-recipes.netlify.app",
 
     },
+    {
+        title:  "Netflix Clone",
+        image:  "/neflix.png",
+        tools:  ["Bootstrap", 
+                "SCSS", 
+                "Vue JS/Nuxt",
+                "JavaScript"
+                ],
+        description:    "A replica of a popular streaming service's desktop version website.  ",
+        code:   "https://github.com/brittrohrer/netflix-clone",
+        live:   "#",
+
+    },
 
 ])
 
