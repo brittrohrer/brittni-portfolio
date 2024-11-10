@@ -66,7 +66,7 @@ const projects = ref([
                 ],
         description:    "A replica of a popular streaming service's desktop version website.  ",
         code:   "https://github.com/brittrohrer/clone-netflix",
-        live:   "#",
+        live:   "https://brohrer-net-clone.netlify.app/",
 
     },
 
