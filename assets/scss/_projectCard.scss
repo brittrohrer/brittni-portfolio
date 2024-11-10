@@ -15,6 +15,9 @@
         border-radius: 20px;
     
     }
+    &__img:hover {
+        transform: scale(1.5);
+    }
     &__text {
         padding: 2rem;
     }
