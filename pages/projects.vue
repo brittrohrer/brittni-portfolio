@@ -58,14 +58,14 @@ const projects = ref([
     },
     {
         title:  "Netflix Clone",
-        image:  "/neflix.png",
+        image:  "/netflix.png",
         tools:  ["Bootstrap", 
                 "SCSS", 
                 "Vue JS/Nuxt",
                 "JavaScript"
                 ],
         description:    "A replica of a popular streaming service's desktop version website.  ",
-        code:   "https://github.com/brittrohrer/netflix-clone",
+        code:   "https://github.com/brittrohrer/clone-netflix",
         live:   "#",
 
     },
