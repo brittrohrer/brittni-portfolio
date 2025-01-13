@@ -117,6 +117,13 @@ const projects = ref([
                     on <a href="https://codepen.io">CodePen</a>.
                 </iframe>
             </div>
+            <div>
+                <iframe height="300" style="width: 100%;" scrolling="no" title="Calculator" src="https://codepen.io/brittrohrer/embed/QwLmRVd?default-tab=html%2Cresult&theme-id=dark" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+                See the Pen <a href="https://codepen.io/brittrohrer/pen/QwLmRVd">
+                Calculator</a> by brittrohrer (<a href="https://codepen.io/brittrohrer">@brittrohrer</a>)
+                on <a href="https://codepen.io">CodePen</a>.
+                </iframe>
+            </div>
         </section>
     </main>
 </template>
